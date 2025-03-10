@@ -1,0 +1,58 @@
+# Path to the dataset
+train: data/finetuning/images/train
+val: data/finetuning/images/val
+
+# Number of classes
+nc: 48
+
+# Class names
+names:
+  0: pedestrian
+  1: car
+  2: truck
+  3: bicycle
+  4: traffic light
+  5: speed limit 20 (prohibitory)
+  6: speed limit 30 (prohibitory)
+  7: speed limit 50 (prohibitory)
+  8: speed limit 60 (prohibitory)
+  9: speed limit 70 (prohibitory)
+  10: speed limit 80 (prohibitory)
+  11: restriction ends 80 (other)
+  12: speed limit 100 (prohibitory)
+  13: speed limit 120 (prohibitory)
+  14: no overtaking (prohibitory)
+  15: no overtaking (trucks) (prohibitory)
+  16: priority at next intersection (danger)
+  17: priority road (other)
+  18: give way (other)
+  19: stop (other)
+  20: no traffic both ways (prohibitory)
+  21: no trucks (prohibitory)
+  22: no entry (other)
+  23: danger (danger)
+  24: bend left (danger)
+  25: bend right (danger)
+  26: bend (danger)
+  27: uneven road (danger)
+  28: slippery road (danger)
+  29: road narrows (danger)
+  30: construction (danger)
+  31: traffic signal (danger)
+  32: pedestrian crossing (danger)
+  33: school crossing (danger)
+  34: cycles crossing (danger)
+  35: snow (danger)
+  36: animals (danger)
+  37: restriction ends (other)
+  38: go right (mandatory)
+  39: go left (mandatory)
+  40: go straight (mandatory)
+  41: go right or straight (mandatory)
+  42: go left or straight (mandatory)
+  43: keep right (mandatory)
+  44: keep left (mandatory)
+  45: roundabout (mandatory)
+  46: restriction ends (overtaking) (other)
+  47: restriction ends (overtaking (trucks)) (other)
+

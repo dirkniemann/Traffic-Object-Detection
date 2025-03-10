@@ -1,0 +1,36 @@
+.vscode
+log
+
+# Ignore the zip, tar and folders of the dataset
+data/100k_images_train.zip
+data/100k_images_val.zip
+data/bdd100k_det_20_labels_trainval.zip
+data/FullIJCNN2013.zip
+data/leftImg8bit.zip
+data/leftImg8bit_trainextra.zip
+data/gtCoarse.zip
+data/camera_lidar_semantic.tar
+data/bdd100k
+data/traffic_signs
+data/audi_a2d2
+data/finetuning
+data/mapillary
+data/videos
+old/
+data/test
+
+
+# Ignore the model checkpoints
+.ipynb_checkpoints/
+
+# Slurm
+slurm/
+
+# all results
+results/
+
+# Virtual environment
+traffic_object_detection_env/
+
+# Test
+test/

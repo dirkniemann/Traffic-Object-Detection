@@ -1,0 +1,82 @@
+This repository contains various datasets, models, and code. Below are the respective licenses for these components. Ensure compliance with these licenses when using this repository.
+
+====================================
+DATASETS
+====================================
+
+--------  
+GTSDB  
+--------  
+This dataset is provided by the German Traffic Sign Detection Benchmark (GTSDB).  
+For more information, please refer to the following publication:
+
+@inproceedings{Houben-IJCNN-2013,
+    author = {Sebastian Houben and Johannes Stallkamp and Jan Salmen and Marc Schlipsing and Christian Igel},
+    booktitle = {International Joint Conference on Neural Networks},
+    title = {Detection of Traffic Signs in Real-World Images: The {G}erman {T}raffic {S}ign {D}etection {B}enchmark},
+    number = {1288},
+    year = {2013},
+}
+
+For dataset terms and conditions, see: https://benchmark.ini.rub.de/gtsdb_about.html  
+
+--------  
+AudiA2D2  
+--------  
+This dataset is released under the CC BY-ND 4.0 license.  
+- License details: https://creativecommons.org/licenses/by-nd/4.0/  
+- Dataset details: https://www.a2d2.audi/a2d2/en.html  
+
+---------------  
+BDD100K Dataset  
+---------------  
+- **Code**: The BDD100K code repository is licensed under the BSD 3-Clause License.  
+- **Dataset**: The data and labels downloaded from https://bdd-data.berkeley.edu/ are subject to the following terms:  
+
+Copyright ©2018. The Regents of the University of California (Regents). All Rights Reserved.  
+Permission is granted for educational, research, and not-for-profit purposes, without fee and without a signed licensing agreement. For commercial licensing opportunities, contact:  
+The Office of Technology Licensing, UC Berkeley, 2150 Shattuck Avenue, Suite 510, Berkeley, CA 94720-1620, (510) 643-7201, otl@berkeley.edu, http://ipira.berkeley.edu/industry-info  
+
+IN NO EVENT SHALL REGENTS BE LIABLE FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES. THIS SOFTWARE AND DATA IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+====================================
+MODELS
+====================================
+
+-----------  
+YOLO License  
+-----------  
+The YOLO model is licensed under the Affero General Public License (AGPL-3.0).  
+- License details: https://www.gnu.org/licenses/agpl-3.0.html  
+- Model details: https://docs.ultralytics.com/de/models/yolo11/#overview  
+
+====================================
+CODE
+====================================
+
+-----------  
+MIT License  
+-----------  
+The code in this repository, except where otherwise noted, is licensed under the MIT License.  
+
+MIT License  
+
+Copyright (c) 2024 Dirk Niemann  
+
+Permission is hereby granted, free of charge, to any person obtaining a copy  
+of this software and associated documentation files (the "Software"), to deal  
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
+copies of the Software, and to permit persons to whom the Software is  
+furnished to do so, subject to the following conditions:  
+
+The above copyright notice and this permission notice shall be included in all  
+copies or substantial portions of the Software.  
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  
+SOFTWARE.

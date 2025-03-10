@@ -1,0 +1,15 @@
+# Path to the dataset
+train: data/bdd100k/images/train
+val: data/bdd100k/images/val
+
+# Number of classes
+nc: 6
+
+# Class names
+0: pedestrian
+1: car
+2: truck
+3: bicycle
+4: traffic light
+5: traffic sign
+
