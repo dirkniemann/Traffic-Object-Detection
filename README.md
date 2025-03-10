@@ -214,4 +214,9 @@ These results demonstrate the model's capability in various traffic scenarios.
 
 ## Conclusion
 The approach and model still have significant room for improvement. For instance, hyperparameters can be varied, and image data can be preprocessed. I have observed that the model particularly struggles with the blurriness of images at high speeds. This can be improved by preprocessing the frames with a Wiener filter or DeblurGAN-v2 to enhance the sharpness of the images.
-This project aims to help and inspire others in their endeavors. Feedback is greatly appreciated. The project is not perfect, and the detection of traffic signs, in particular, can be significantly improved.
+
+Additionally, the pseudo-labeling process introduces errors that need to be manually corrected to improve data quality. The conversion from semantic segmentation to bounding boxes is not optimal and could be refined for better results. Another limitation is the dataset structure, as some object classes are overrepresented, while others, such as rare traffic signs, are underrepresented. Balancing the dataset would improve recognition performance across all object types.
+
+For real-time inference, upgrading to hardware with GPU acceleration, such as an NVIDIA Jetson Orin, would significantly reduce inference time and improve detection speed.
+
+This project aims to help and inspire others in their endeavors. Feedback is greatly appreciated. While the current model provides a solid foundation, it can be further refined through improved data preprocessing, dataset balancing, and model optimization.
